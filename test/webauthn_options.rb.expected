@@ -1,0 +1,10 @@
+43
+true
+{timeout: 120000, extensions: {}, rp: {name: "Example", id: "example.com"}, user: {name: "alice", id: "dXNlci1oYW5kbGU", displayName: "Alice"}, pubKeyCredParams: [{type: "public-key", alg: -7}, {type: "public-key", alg: -37}, {type: "public-key", alg: -257}], authenticatorSelection: {userVerification: "preferred", residentKey: "preferred"}, excludeCredentials: [{type: "public-key", id: "7dFg2jJxEQmVk2CQLKFqpg"}, {type: "public-key", id: "kM0AlsHYhuJbjn2Z4SmCHQ"}]}
+{"timeout":120000,"extensions":{},"rp":{"name":"Example","id":"example.com"},"user":{"name":"alice","id":"dXNlci1oYW5kbGU","displayName":"Alice"},"pubKeyCredParams":[{"type":"public-key","alg":-7},{"type":"public-key","alg":-37},{"type":"public-key","alg":-257}],"authenticatorSelection":{"userVerification":"preferred","residentKey":"preferred"},"excludeCredentials":[{"type":"public-key","id":"7dFg2jJxEQmVk2CQLKFqpg","transports":["hybrid","internal"]},{"type":"public-key","id":"kM0AlsHYhuJbjn2Z4SmCHQ","transports":["hybrid","internal"]}]}
+true
+{timeout: 120000, extensions: {}, allowCredentials: [{type: "public-key", id: "7dFg2jJxEQmVk2CQLKFqpg"}], rpId: "example.com", userVerification: "preferred"}
+{"timeout":120000,"extensions":{},"allowCredentials":[{"type":"public-key","id":"7dFg2jJxEQmVk2CQLKFqpg"}],"rpId":"example.com","userVerification":"preferred","hints":["client-device"]}
+{timeout: 120000, extensions: {}, allowCredentials: [], rpId: "example.com", userVerification: "preferred"}
+86
+64

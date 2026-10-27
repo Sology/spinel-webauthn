@@ -1,0 +1,7 @@
+[package]
+name = "webauthn"
+version = "3.4.3"
+
+# The webauthn gem 3.4.3 (cedarcode/webauthn-ruby) for Spinel: the relying-party half of the webauthn gem: registration and authentication options, attestation and assertion verification.
+# The version is the gem version this port answers as; a fix to the port alone
+# keeps it (spin.lock pins the commit). Published repos are named spinel-webauthn.

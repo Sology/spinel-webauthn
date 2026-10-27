@@ -1,0 +1,15 @@
+es256: true
+ldC3DEizHo_esjeZxX6T9A
+1
+aGFuZGxlLWJ5dGVz
+nil
+rs256: true
+legacy stored point: true
+sign count not ahead: WebAuthn::SignCountVerificationError: WebAuthn::SignCountVerificationError
+both counts zero: true
+tampered signature: WebAuthn::SignatureVerificationError: WebAuthn::SignatureVerificationError
+wrong key: WebAuthn::SignatureVerificationError: WebAuthn::SignatureVerificationError
+wrong challenge: WebAuthn::ChallengeVerificationError: WebAuthn::ChallengeVerificationError
+uv required, absent: WebAuthn::UserVerifiedVerificationError: WebAuthn::UserVerifiedVerificationError
+uv required, present: true
+registration as assertion: WebAuthn::TypeVerificationError: WebAuthn::TypeVerificationError

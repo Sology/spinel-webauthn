@@ -1,0 +1,18 @@
+es256 none: true
+ldC3DEizHo_esjeZxX6T9A
+true
+0
+public-key
+rs256 none: true
+true
+es256 packed self: true
+rs256 packed self: true
+packed bad sig: WebAuthn::AttestationStatementVerificationError: WebAuthn::AttestationStatementVerificationError
+wrong challenge: WebAuthn::ChallengeVerificationError: WebAuthn::ChallengeVerificationError
+nil challenge: WebAuthn::PublicKeyCredential::InvalidChallengeError: challenge must be a String. input challenge class: NilClass
+other origin: WebAuthn::OriginVerificationError: WebAuthn::OriginVerificationError
+wrong rp id: WebAuthn::RpIdVerificationError: WebAuthn::RpIdVerificationError
+not present: WebAuthn::UserPresenceVerificationError: WebAuthn::UserPresenceVerificationError
+uv required, absent: WebAuthn::UserVerifiedVerificationError: WebAuthn::UserVerifiedVerificationError
+uv required, present: true
+assertion as registration: WebAuthn::TypeVerificationError: WebAuthn::TypeVerificationError
